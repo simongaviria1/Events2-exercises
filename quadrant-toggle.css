@@ -1,0 +1,36 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "tl tr" 
+                        "bl br";
+    width: 1000px;
+}
+
+.tl {
+    grid-area: tl;
+    padding: 50%;
+}
+
+.tr {
+    grid-area: tr;
+    padding: 50%;
+}
+
+.bl {
+    grid-area: bl;
+    padding: 50%;
+}
+
+.br {
+    grid-area: br;
+    padding: 50%;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
